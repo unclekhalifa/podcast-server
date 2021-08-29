@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/node,osx
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,osx
-
 ### Node ###
 # Logs
 logs
@@ -150,5 +146,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-# End of https://www.toptal.com/developers/gitignore/api/node,osx
