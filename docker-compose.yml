@@ -1,0 +1,11 @@
+version: '3'
+services:
+  podcast-server:
+    container_name: podcast-server
+    restart: always
+    volumes:
+      - ${TRACKS_LOCATION}:/opt/podcast-server/tracks
+      - ${RSS_LOCATION}:/opt/podcast-server/public/feed.xml
+      - ${CERTS_LOCATION}:/opt/podcast-server/certs
+    build:
+      context: ./
