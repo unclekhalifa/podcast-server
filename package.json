@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/khalifa-is/podcast-server/issues"
   },
-  "homepage": "https://github.com/khalifa-is/podcast-server#readme"
+  "homepage": "https://github.com/khalifa-is/podcast-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sanitize-filename": "^1.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
